@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff; font-family: 'stc';
+    color: rgb(105, 103, 102);
+}
+/* *{
+    font-family: 'stc';
+    color: rgb(105, 103, 102);
+} */
+.line{
+    margin-top:0px;
+    border: 0;
+    height: 5px;
+    background: -moz-linear-gradient(left, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    background: -webkit-linear-gradient(left, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    background: -o-linear-gradient(left, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    background: -ms-linear-gradient(left, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    
+}
+
+nav .butt1 button{
+    color: white;
+    background-color: rgb(17, 179, 65);
+    border: none;
+    border-radius: 5px;
+    height: 45%;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    /* position: relative;
+    bottom: 60px; */
+    right: 5px;
+    
+}
+nav .icons{
+    float: left;
+    display: flex;
+    position: relative;
+    top: 0px;
+    right: 5px;
+    
+}
+nav .icons p{
+    margin-right:20px;
+    text-align: center;
+}
+nav {
+    padding-right: 80px;
+    padding-left: 100px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0.8rem 0rem;
+    padding-top: 0;
+    
+    position :relative;
+    bottom: 60px;
+
+}
+/* nav , .acoord{
+    display: flex;
+} */
+.acoord img{
+    
+    padding-right: 20px;
+    padding-left:1200px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    width: 140px;
+    
+   
+}
+
+nav p{
+    margin-top: -9px;
+}
+/* .form3 .card{
+    
+} */
+
+.main img{
+   background-image: url('img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 420px;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+    margin-top: -75px;
+}
+.section-index{
+    position: relative;
+}
+.box-img{
+    background-color: white;
+    box-shadow: 10px 10px 10px aliceblue;
+    border: none;
+    border-radius: 15px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    padding: 20px;
+    width: 16%;
+    height: 50%;
+    float: left;
+    position: absolute;
+    top: -5px;
+    left: 120px;
+    padding-bottom:160px;
+    padding-left: 40px;
+      /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+.box-img h2 , p{
+    text-align: center;
+    margin-top: 0px;
+}
+.box-img p{
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+    position: relative;
+    bottom: 12px;
+}
+.box-img button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 230px;
+    height: 30px;
+    margin-top: 22px;
+
+}
+.box-img  label{
+    color: rgb(54, 52, 51);
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+/* .box-img .full_nema{
+  line-height: 5px;
+} */
+/* .section-index .main .box-img {
+    width: 340px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px 0px;
+    padding: 25px;
+    z-index: 9000;
+    margin-top: 0.75rem;
+} */
+.box-img input{
+    padding: 8px 8px 8px 8px;
+    width: 100%;
+    height: 22px;
+    border-radius: 5px;
+    border:1px solid  rgb(141, 141, 141);;
+
+}
+.section-index .main .box-img{
+    display: flex;
+
+}
+/* .box-img .number , .full_nema{
+    margin-bottom: 1rem;
+} */
+/* ==================form2================== */
+.form2{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.form2 h1{
+    margin: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(54, 52, 51);
+}
+.form2 .boxs .box_smoll img {
+    box-shadow: 0 4px 3px -2px grey;
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+   /* display: flex; */
+   
+    
+} 
+.form2 .boxs .box_smoll p{
+    margin-top: 3px;
+}
+.form2 .box_smoll{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    position: relative;
+    height: 115px;
+}
+.form2 .boxs{
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    
+    
+
+    /* position: relative;
+    width: 100%;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 5px; */
+}
+.form2 .boxs .box_smoll p{
+    white-space: initial;
+}
+.form2 .Categories p{
+    text-align: left;
+    color: rgb(37, 36, 36);
+    font-weight: bold;
+ 
+}
+.form3 {
+    /* box-shadow: 20px 20px 20px ; */
+    /* border-radius: 50px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+
+}
+.form3 .card{
+    background-color: white;
+    width: 30%;
+    margin-left: 30px;
+    padding-left:30px;
+    padding-right:30px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 12px;
+    margin-bottom: 2px;
+    
+    /* height: 100%; */
+    
+
+}
+.form3 h2 , p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+.form3 .card  img{
+    width: 100%;
+    position: relative;
+    top: 25px;
+    border-radius: 15px;
+}
+.form3 .card .card-body{
+    padding: 15px;
+}
+.form3 .card .card-body p{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.img3 img{
+padding-left: 220px;
+margin-top: 20px;
+border-radius: 10px;
+}
