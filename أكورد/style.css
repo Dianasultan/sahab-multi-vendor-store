@@ -8,6 +8,7 @@ body{
     text-align: left;
     background-color: #fff; font-family: 'stc';
     color: rgb(105, 103, 102);
+   
 }
 /* *{
     font-family: 'stc';
@@ -122,7 +123,7 @@ nav p{
     margin-bottom: 30px; */
 }
 .box-img h2 , p{
-    text-align: center;
+    /* text-align: center; */
     margin-top: 0px;
 }
 .box-img p{
@@ -259,11 +260,11 @@ nav p{
 .form3 .card{
     background-color: white;
     width: 30%;
-    margin-left: 30px;
+    margin-left: 50px;
     padding-left:30px;
     padding-right:30px;
     box-shadow: 2px 2px 2px;
-    border-radius: 12px;
+    border-radius: 7px;
     margin-bottom: 2px;
     
     /* height: 100%; */
@@ -293,4 +294,53 @@ nav p{
 padding-left: 220px;
 margin-top: 20px;
 border-radius: 10px;
+}
+/* ================================ */
+.card-group .card .img{
+    width: 100%;
+    position: relative;
+    top: 25px;
+    border-radius: 15px;
+}
+/* ================================ */
+/* .cardGroup2{
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+ 
+  }
+  
+  .cardGroup2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  } */
+
+/* ===================================footer======================================== */
+footer .Levels{
+    float: right;
+}
+footer .Levels .Level1 , .Level2{
+    
+    padding-right: 30px;
+}
+footer .Levels .Level1 h2 ,p{
+    text-align: right;
+    padding-right: 50px;
+    /* font-size: 22px; */
+    padding-top: 12px;
+    
+}
+footer .Levels .Level1 h2{
+    color: black;
+    font-size: 30px;
+}
+footer .Levels .Level1 p{
+    color: rgb(96, 96, 96);
+    font-size: 24;
+}
+footer{
+    line-height: 0;
 }
